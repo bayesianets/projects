@@ -506,9 +506,10 @@ for (iter in 1:(Niter + Nburn)) {
 #t = ts(mixedProb[, 2])
 Nts = ts(matrix(countData, intervalCount, 1))
 normalRateTS = ts(matrix(normalRate, intervalCount, 1))
-n = 7*48
+
 par(mfrow = c(2, 1))
+
+# Plot normal/actual counts for the last few days
 plot.ts(Nts[2409:3556])
 lines(normalRateTS[2409:3556])
 
-#plot.ts(t[3409:3456])
