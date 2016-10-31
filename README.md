@@ -1,3 +1,3 @@
 # projects
-Predictive Modeling and Pattern Recognition 
+Machine learning and Pattern Recognition 
 
