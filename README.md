@@ -1,3 +1,3 @@
 # projects
-Machine learning and Pattern Recognition 
+Machine Learning and Pattern Recognition 
 
